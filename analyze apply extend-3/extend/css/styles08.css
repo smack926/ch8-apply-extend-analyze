@@ -1,0 +1,39 @@
+/* Shane Mack, 4/21/2024 */
+body {
+    font-family: Arial, sans-serif; /* Sans-serif font */
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid #fd4d0c; /* Table border color */
+    border-collapse: collapse;
+    box-shadow: 10px 10px 20px #792101; /* Box shadow color */
+}
+
+caption {
+    font-size: 2em;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+th, td {
+    border: 1px solid #a22c02; /* Table data border color */
+    padding: 10px;
+}
+
+th {
+    background-color: #fd4d0c; /* Header background color */
+}
+
+tr:nth-child(odd) {
+    background-color: #fe9772; /* Odd rows background color */
+}
+
+td[colspan] {
+    text-align: center;
+}
+
+td[rowspan] {
+    vertical-align: top;
+}

@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Shane Mack
+Date: 4/21/2024
+File Name: apply08.css
 */
 
 /* CSS Reset */
@@ -26,4 +26,43 @@ body {
 footer {
 	font-size: .70em;
 	text-align: center;
+}
+
+/* Style rule for the table element */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 3px solid #71881b;
+    border-collapse: collapse; /* Collapse the borders */
+    padding: 2%; /* Set padding to 2% */
+}
+
+/* Style rule for table row */
+tr {
+    padding: 2%; /* Set padding to 2% */
+}
+
+/* Style rule for table header cells */
+th {
+    padding: 2%; /* Set padding to 2% */
+    border: 1px solid #7188bb; /* Set border */
+}
+
+/* Style rule for table data cells */
+td {
+    padding: 2%; /* Set padding to 2% */
+    border: 1px solid #7188bb; /* Set border */
+    text-align: center; /* Center-align text */
+}
+
+/* Style rule for the caption element */
+caption {
+    font-size: 2em; /* Set font size to 2em */
+    padding: 2%; /* Set padding to 2% */
+    margin-top: 2%; /* Set top margin to 2% */
+}
+
+/* Style rule for odd rows */
+tr:nth-child(odd) {
+    background-color: #d3e788; /* Set background color to #d3e788 */
 }
